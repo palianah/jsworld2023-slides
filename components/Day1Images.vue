@@ -41,8 +41,9 @@ onUnmounted(() => {
     <img src="/images/IMG_7893.jpg" v-if="clicks === 6" />
     <img src="/images/IMG_7891.jpg" v-if="clicks === 7" />
     <img src="/images/speakers.png" v-if="clicks === 8" />
-    <img src="/images/IMG_7890.jpg" v-if="clicks === 9" />
-    <img src="/images/van-gogh-museum.jpeg" v-if="clicks === 10" />
+    <img src="/images/open-source2.png" v-if="clicks === 9" />
+    <img src="/images/IMG_7890.jpg" v-if="clicks === 10" />
+    <img src="/images/van-gogh-museum.jpeg" v-if="clicks === 11" />
   </div>
 </template>
 
