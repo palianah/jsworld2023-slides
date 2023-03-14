@@ -33,36 +33,63 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: fade-out
-layout: default
+layout: center
 ---
 
 # Agenda
 
-- Day 1 - All except Vue.js
-- Day 2 & 3 - All about Vue.js
-- Day 4 - Workshop with Evan You
+- Personal Impressions
+- All about Documentations
+- Workshop with Evan You
 - Live Demo Playwright
-- Live Demo Copilot
-- Slidev - write presentation with Vue & Vite
+- Copilot
+- Slidev - write presentations with Vue & Vite
 
 ---
 transition: fade-out
 layout: two-cols
-clicks: 7
+clicks: 10
 ---
-# Day 1
+# Personal Impressions
 
-All except Vue.js
-
-- Super location (bit to small for 2k developers)
-- good catering
-- good speakers
-- good organization
+<ul>
+<v-clicks at="0"><li> 🏠 super location</li></v-clicks>
+<v-clicks at="6"><li> 🍔 good catering</li></v-clicks>
+<v-clicks at="8"><li> 👩‍💻 good speakers</li></v-clicks>
+<v-clicks at="9"><li> ❤️ Amsterdam</li></v-clicks>
+</ul>
 
 ::right::
 
 <!-- ./components/Day1Images.vue -->
 <Day1Images :page="3" :clicks="$slidev.nav.clicks" />
+
+<!-- Docs Libraries Page -->
+
+---
+transition: fade-out
+layout: full
+---
+
+# All about Documentations
+
+<ul>
+  <li>
+    <a href="https://storybook.js.org" target="_blank">Storybook</a>
+  </li>
+  <li>
+    <a href="https://histoire.dev" target="_blank">Histoire</a>
+  </li>
+  <li>
+    <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a>
+  </li>
+  <li>
+    <a href="https://vitepress.dev" target="_blank">VitePress</a>
+  </li>
+  <li>
+    <a href="https://sli.dev" target="_blank">Slidev</a>
+  </li>
+</ul>
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
