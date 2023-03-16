@@ -13,9 +13,9 @@ jobs:
             - name: Install slidev
               run: npm i -g @slidev/cli
             - name: Build
-              run: slidev build --base <name_of_repo>
+              run: slidev build --base jsworld2023-slides
             - name: Deploy pages
-              uses: crazy-max/ghaction-github-pages@v2
+              uses: crazy-max/ghaction-github-pages@v3
               with:
                   build_dir: dist
               env:
