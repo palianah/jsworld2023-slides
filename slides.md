@@ -28,7 +28,9 @@ css: unocss
 08-11. February 2023
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+- Da wir hier keine Frontend COP sind, werde ich nicht auf einzelne FE Details gehen
+- Werde allgemein interessante Punkte zeigen die ich auf der Konferenz kennengelernt habe
+- Ein zwei Sachen werde ich euch auch Live zeigen um die Präsi etwas interaktiv zu halten :)
 -->
 
 ---
